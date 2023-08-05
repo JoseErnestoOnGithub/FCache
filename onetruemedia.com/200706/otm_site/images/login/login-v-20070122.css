@@ -1,0 +1,142 @@
+.outer {position:relative; height:390px;}
+.outer table.dynamicReg {position:absolute; width:744px; }
+table.dynamicReg td {text-align:left; vertical-align:top; }
+
+.regBgTopLeft {width:466px;}
+.regBgRight {width:278px;}
+.regBgBottomLeft {width:233px;}
+.regBgBottomMid {width:233px;}
+
+.regBgTopLeft *,
+.regBgBottomLeft *,
+.regBgBottomMid * {margin:0px; font-family:verdana, arial, helvetica, sans-serif; }
+
+.regBgTopLeft h2,
+.regBgTopLeft div,
+.regBgBottomLeft h3,
+.regBgBottomMid h3 {padding:10px 10px 0px 10px; }
+.regBgBottomLeft div, .regBgBottomMid div {padding:5px 10px 0px 10px; }
+
+/*== BACKGROUNDS AND STYLES FOR DYNAMIC LOGIN/REG TABLE ===========================================*/
+/*----- US -----*/
+.otm_defaultRegBgTopLeft {background:url(loginBg_default-v-3.jpg) no-repeat left top; height:165px;}
+.otm_defaultRegBgRight {background:url(loginBg_default-v-3.jpg) no-repeat right top; height:390px;}
+.otm_defaultRegBgBottomLeft {background:url(loginBg_default-v-3.jpg) no-repeat left bottom; height:225px; }
+.otm_defaultRegBgBottomLeft div {margin-top:10px; }
+.otm_defaultRegBgBottomMid {background:url(loginBg_default-v-3.jpg) no-repeat -233px bottom; }
+
+/*----- PARTNERS -----*/
+.ivRegBgTopLeft {background:url(../partners/iv/regBg.jpg) no-repeat left top;}
+.ivRegBgRight {background:url(../partners/iv/regBg.jpg) no-repeat right top; height:390px;}
+.ivRegBgBottomLeft {background:url(../partners/iv/regBg.jpg) no-repeat left bottom; }
+.ivRegBgBottomMid {background:url(../partners/iv/regBg.jpg) no-repeat -233px bottom; }
+td.ivRegBgRight table.regForm .regFormTitle { font-style:normal; font-family: Arial, Helvetica, sans-serif;  font-size: 14px; color:#333; font-weight:bold; padding:8px 0px 5px 0px;}
+
+/*----- PROMOTIONS -----*/
+.lostprophetsRegBgTopLeft {background:url(http://www.onetruemedia.com/otm_site/images/partners/promotions/lostprophets/loginBg.gif) no-repeat left top;}
+.lostprophetsRegBgRight {background:url(http://www.onetruemedia.com/otm_site/images/partners/promotions/lostprophets/loginBg.gif) no-repeat right top; height:390px;}
+.lostprophetsRegBgBottomLeft {background:url(http://www.onetruemedia.com/otm_site/images/partners/promotions/lostprophets/loginBg.gif) no-repeat left bottom; }
+.lostprophetsRegBgBottomMid {background:url(http://www.onetruemedia.com/otm_site/images/partners/promotions/lostprophets/loginBg.gif) no-repeat -233px bottom; }
+
+/*----- REFERRERS -----*/
+.myspaceRegBgTopLeft {background:#fff url(http://www.onetruemedia.com/otm_site/images/partners/myspace/regBgTopLeft.gif) no-repeat left top; height:165px;}
+.myspaceRegBgTopLeft img {margin-top:3px;}
+.myspaceRegBgTopLeft h2 {color:#fff; font-size:17px; line-height:21px; }
+.myspaceRegBgTopLeft div {color:#000; font-size:11px; line-height:19px; padding-top:8px;}
+.myspaceRegBgTopLeft div div {padding-left:0px; padding-right:2px;}
+.myspaceRegBgRight {background:#fff url(http://www.onetruemedia.com/otm_site/images/partners/myspace/regBgRight.gif) no-repeat right top; height:390px;}
+.myspaceRegBgRight table.regForm {margin-top:3px; margin-left:42px; width:203px;}
+.myspaceRegBgRight table.regForm .regFormTitle {color:#eee; font-style:normal; }
+.myspaceRegBgRight table.regForm .regFormTitle.join {color:#003399; border-top:1px dashed #003399;}
+.myspaceRegBgRight table.regForm .divider {border-bottom:0px;}
+.myspaceRegBgRight table.regForm a:link, .myspaceRegBgRight table.regForm a:visited {color:#003399;}
+.myspaceRegBgBottomLeft {background:#fff url(http://www.onetruemedia.com/otm_site/images/partners/myspace/regBgBottomLeft.gif) no-repeat left bottom; height:225px;}
+.myspaceRegBgBottomLeft h3 {color:#000; font-size:13px; width:213px; }
+.myspaceRegBgBottomLeft a {color:#003399;}
+.myspaceRegBgBottomLeft div {color:#000; font-size:11px; line-height:19px; width:223px; padding:5px 0px 0px 0px;}
+.myspaceRegBgBottomLeft div div {float:right; width:69px; height:100px; margin:0px 3px 0px 0px; padding:0px;}
+.myspaceRegBgBottomMid {background:#fff url(http://www.onetruemedia.com/otm_site/images/partners/myspace/regBgBottomMid.gif) no-repeat left bottom; }
+.myspaceRegBgBottomMid h3 {color:#000; font-size:13px; width:213px; padding:10px 8px 0px 12px;}
+.myspaceRegBgBottomMid div {color:#000; font-size:11px; line-height:19px; width:213px; padding:5px 8px 0px 12px;}
+.myspaceRegBgBottomMid div.listNumber {width:15px; padding:0px; float:left;}
+.myspaceRegBgBottomMid div.listText {width:193px; padding:0px 5px 5px 0px; float:left; clear:right; display:table;}
+
+.piczoRegBgTopLeft {background:#fff url(../partners/piczo/regBgTopLeft.gif) no-repeat left top;}
+.piczoRegBgTopLeft h2 {color:#50a5d2; }
+.piczoRegBgTopLeft div {color:#4a4a4a; }
+.piczoRegBgRight {background:#fff url(../partners/piczo/regBgRight.gif) no-repeat right top;}
+.piczoRegBgRight table.regForm a:link, .piczoRegBgRight table.regForm a:visited {color:#50A5D2;}
+.piczoRegBgBottomLeft {background:#fff url(../partners/piczo/regBgBottomLeft.gif) no-repeat left bottom;}
+.piczoRegBgBottomLeft h3 {color:#50a5d2; }
+.piczoRegBgBottomLeft div {color:#4a4a4a; }
+.piczoRegBgBottomLeft a {color:#50A5D2;}
+.piczoRegBgBottomMid {background:#fff url(../partners/piczo/regBgBottomMid.gif) no-repeat left bottom; }
+.piczoRegBgBottomMid h3 {color:#50a5d2;}
+.piczoRegBgBottomMid div {color:#4a4a4a; }
+
+.friendsterRegBgTopLeft {background:#fff url(../partners/friendster/regBgTopLeft.gif) no-repeat left top;}
+.friendsterRegBgTopLeft h2 {color:#ff4400; padding-top:7px; }
+.friendsterRegBgTopLeft img {margin-top:5px;}
+.friendsterRegBgTopLeft div {color:#515043; padding-top:5px; line-height:18px;}
+.friendsterRegBgRight {background:#fff url(../partners/friendster/regBgRight.gif) no-repeat right top;}
+.friendsterRegBgRight table.regForm {color: #666;}
+.friendsterRegBgRight table.regForm .regFormTitle {color:#086a89;}
+.friendsterRegBgRight table.regForm .regFormTitle.join {color:#086a89; border-top:1px solid #086a89;}
+.friendsterRegBgRight table.regForm .regFormLabel {color: #333;}
+.friendsterRegBgRight table.regForm .regFormLabel span {color: #666!important;}
+.friendsterRegBgRight table.regForm .regFormTextline {color: #666;}
+.friendsterRegBgRight table.regForm a:link, .friendsterRegBgRight table.regForm a:visited {color:#ff4400;}
+.friendsterRegBgBottomLeft {background:#fff url(../partners/friendster/regBgBottomLeft.gif) no-repeat left bottom;}
+.friendsterRegBgBottomLeft h3 {color:#eee; }
+.friendsterRegBgBottomLeft div {color:#515043; }
+.friendsterRegBgBottomLeft a {color:#ff4400;}
+.friendsterRegBgBottomMid {background:#fff url(../partners/friendster/regBgBottomMid.gif) no-repeat left bottom; }
+.friendsterRegBgBottomMid h3 {color:#eee;}
+.friendsterRegBgBottomMid div {color:#515043; }
+
+.weddingRegBgTopLeft {background:#fff url(../partners/wedding/regBgTopLeft.jpg) no-repeat left top;}
+.weddingRegBgRight {background:#fff url(../partners/wedding/regBgRight.jpg) no-repeat right top;}
+.weddingRegBgRight table.regForm .regFormTitle {color: #3E3E3E;}
+.weddingRegBgRight table.regForm .regFormTitle.join {color:#3E3E3E; border-top:0px;}
+.weddingRegBgRight table.regForm a:link, .weddingRegBgRight table.regForm a:visited {color:#50A5D2;}
+.weddingRegBgBottomLeft {background:#fff url(../partners/wedding/regBgBottomLeft.jpg) no-repeat left bottom;}
+.weddingRegBgBottomMid {background:#fff url(../partners/wedding/regBgBottomMid.jpg) no-repeat left bottom; height:225px; }
+.weddingRegBgBottomMid div, .weddingRegBgBottomMid div div {width:220px; height:45px;}
+.weddingRegBgBottomMid div {margin:110px 0px 0px 0px; padding:0px;}
+.weddingRegBgBottomMid div div {margin:0px; padding:0px;}
+
+.cosmoRegBgTopLeft {background:#fff url(../partners/cosmo/regBgTopLeft.jpg) no-repeat left top;}
+.cosmoRegBgRight {background:#fff url(../partners/cosmo/regBgRight.jpg) no-repeat right top;}
+.cosmoRegBgRight table.regForm .regFormTitle {color: #3E3E3E;}
+.cosmoRegBgRight table.regForm .regFormTitle.join {color:#3E3E3E; border-top:0px;}
+.cosmoRegBgRight table.regForm a:link, .cosmoRegBgRight table.regForm a:visited {color:#50A5D2;}
+.cosmoRegBgBottomLeft {background:#fff url(../partners/cosmo/regBgBottomLeft.jpg) no-repeat left bottom;}
+.cosmoRegBgBottomMid {background:#fff url(../partners/cosmo/regBgBottomMid.jpg) no-repeat left bottom; height:225px; }
+.cosmoRegBgBottomMid div, .cosmoRegBgBottomMid div div {width:220px; height:45px;}
+.cosmoRegBgBottomMid div {margin:107px 0px 0px 4px; padding:0px;}
+.cosmoRegBgBottomMid div div {margin:0px; padding:0px;}
+
+
+/*== FORMS ===============================================================*/
+table.regForm {width:216px; margin-left:29px; margin-top:16px; }
+/*-- LOGIN FORM ----------------------------------------------------------*/
+table.regForm {border-spacing:0px 1px;}
+table.regForm {font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  color: #333;}
+table.regForm .regFormTitle { font-style:italic; font-family: Arial, Helvetica, sans-serif;  font-size: 14px; color:#a40043; font-weight:bold; padding:8px 0px 5px 0px;}
+table.regForm .regFormLabel { width:92px; text-align:right;}
+table.regForm .regFormField { font-family:Arial, Helvetica, sans-serif; font-size:11px; border:1px solid #CCCCCC; background-color:#F8F8F8; padding:2px 2px 2px 3px; width:124px; height:22px;}
+table.regForm .regFormFieldFocus { font-family:Arial, Helvetica, sans-serif; font-size:11px; border:1px solid #000000; background-color:#fff; padding:2px 2px 2px 3px; width:124px; height:22px;}
+table.regForm .regFormTextline {padding:3px 0px 3px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #999;}
+table.regForm .regFormTextline input {border: 0px none #FFFFFF; padding:0px; margin:0px;}
+table.regForm a:visited, table.regForm a:link {color:#1c1bb4;}
+table.regForm .divider {padding-bottom:10px; border-bottom:1px solid #e4e4e4;}
+table.regForm .loginError {padding:0px 0px 5px 0px; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight: normal; color:#FF8A24;}
+table.regForm .singleError {padding:0px; margin:0px;}
+.loginError { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px; font-weight: normal; color:#FF8A24;  }
+
+/*-- REG FORM ----------------------------------------------------------*/
+table.regPage .regFormLabel {font-size: 11px; }
+table.regPage .regFormLabel { width:88px;}
+table.regPage .regFormLabel { padding-right:4px;}
+table.regPage table.select td.field select { width:122px!important;}
+table.regPage table.select td.field select option { padding-left:2px!important; padding-right:2px!important;}

@@ -1,0 +1,278 @@
+/* -----<<< GLOBAL >>>------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/*body{margin:0px;overflow-y:hidden;padding:0px;width:100%}*/
+body{margin:0px;overflow-y:auto;padding:0px;width:100%}	/* Firefox 1.5 Scroller Fix */
+form{ padding: 0px; margin: 0px; }
+.hide{display:none;}
+.show{display:inline-block;}
+
+.showToolbar {display: inline-block; }
+.hideToolbar {display: none; }
+
+
+/*-----<<< PROCESS DIAGRAM >>>---------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+td.processHeader { background-image: url(http://www.onetruemedia.com/otm_site/images/wrapper/header_subtitletile.gif);  background-repeat: repeat-x;  background-color: #FFFFFF;  }
+.processHeaderStep { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; text-align: center; }
+
+
+/*-----<<< HEADER >>>------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.user{color:#FFF;float:left;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;padding:9px 0px 0px 5px;white-space:nowrap;}
+.user a {color:#FFF;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;padding:9px 0px 0px 5px;white-space:nowrap;}
+.topnav{color:#FFF;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:11px;padding:10px 5px 0px 0px;white-space:nowrap;}
+div.topNav a:visited,div.topNav a:link{color:#FFF;text-decoration:none;}
+div.topNav a:hover{color:#FFF;text-decoration:underline;}
+
+.title { height: 21px; width: 100%; /*  float: left;*/ font-size: 15px; overflow: hidden; padding: 0px 20px 0px 0px; text-overflow: ellipsis; color: #344076; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-weight: bolder; word-break: break-all; line-height: 25px; background-image: url(http://www.onetruemedia.com/otm_site/images/wrapper/title_div.gif); background-position: right; background-repeat: repeat-y; }
+
+.titleattributes{ color: #000; font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-size: 11px; padding: 7px 0px 0px 20px; white-space: nowrap; }
+
+/*td.subTitle1 { background-image: url(http://www.onetruemedia.com/otm_site/images/wrapper/header_subtitletile.gif);padding:5px 0px 0px 0px; }*/
+/*td.subtitle1 div{background-image: url(http://www.onetruemedia.com/otm_site/images/wrapper/header_subtitle1underline.gif);background-position: top;background-repeat:repeat-x;color: #4C4C4C;float:left;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:12px;font-weight: bold;height: 25px;white-space:normal;width:100%;  overflow: hidden;  line-height: 25px;  text-overflow: ellipsis;      }*/
+/*td.subTitle2 { background-color: #DCDCDC;padding: 1px 0px 0px 0px; }*/
+/*td.subtitle2 div {background-image: url("http://www.onetruemedia.com/otm_site/images/wrapper/header_subtitle2underline.gif");background-position:top;background-repeat:repeat-x;color:#000;float:left;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:12px;height: 21px;white-space:normal;width:100%;  overflow: hidden;  margin-top: -5px;  line-height: 20px;      }*/
+
+
+/*-----<<< FOOTER >>>------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.copyright{color:#787878;float:left;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:10px;padding:11px 0px 0px 0px;white-space:nowrap;}
+.footernav{color:#000;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:11px;padding:10px 0px 0px 0px;white-space:nowrap;}
+div.footerNav a:visited,div.footerNav a:link{color:#000;text-decoration:none;}
+div.footerNav a:hover{color:#000;text-decoration:underline;}
+
+
+/*-----<<< LEFT LIST >>>---------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.tlmmddyy{color:#315487;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal !important;padding-left:6px;white-space:nowrap;}
+.tlColName{color:#315487;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:normal;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:130px;}
+.rowOver{background-color:#E0E0E0;}
+div.tlColName a:visited,div.tlColName a:link{color:#315487;text-decoration:none;}
+div.tlColName a:hover{color:#000000;text-decoration:none;}
+.simpleList { margin-top: 10px; }
+table.simpleList td{border-bottom:1px solid #CCCCCC;height:20px;padding:0px 2px 0px 4px;}
+.simpleTitle { font-family: Arial, Helvetica, sans-serif;  font-weight: bold;  font-size: 14px;  text-align: center;  background-color: #CAD2E6;  border: 1px solid #979797 !important;  height: 24px !important;}
+.simpleListFooter { background-image: url(http://www.onetruemedia.com/otm_site/images/winbutton.gif); text-align: center; height: 15px !important; background-repeat: repeat-x; background-position: 1px; }
+.simpleListFooter a {font-family: Arial, Helvetica, sans-serif;  font-weight: normal;  font-size: 10px;color:#000000;text-decoration:none;}
+
+
+/*-----<<< HOME-SPECIFIC >>>------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.homeWorkspace{background-color:#FFFFFF;padding: 0px 0px 10px 0px;}  /*Combined right-padding values for "homeWorkspace" and "homeScroller" should equal the general grid spacing*/
+/*.homeLeft { padding: 0px 5px 0px 10px; }*/
+.homeLeft { padding: 0px 5px 0px 0px; }
+.homeRight { padding: 0px 5px 0px 10px; }
+.homeScroller{height:100%;overflow-y: auto;padding: 0px 6px 0px 0px;}  /*Combined right-padding values for "homeWorkspace" and "homeScroller" should equal the general grid spacing*/
+.homeScroller{ scrollbar-3dlight-color: #AEAEAE; /*Outer top and left sides of scroll face (3-D)*/ scrollbar-darkshadow-color: #AEAEAE; /*Outer bottom and right sides of scroll face (3-D)*/ scrollbar-highlight-color: #D1D6E0; /*Inner top and left sides of scroll face (3-D)*/ scrollbar-shadow-color: #B2B8C3; /*Inner bottom and right sides of scroll face (3-D)*/ scrollbar-arrow-color: #FFF; /*Arrows in boxes*/ scrollbar-face-color: #C5CCD8; /*Flat areas in slider, except for track*/ scrollbar-track-color: #AEAEAE; /*Flat area that defines the scroller*/ scrollbar-base-color: #DCDCDC; /*Color used if no other properties set*//*Color used if no other properties set*/ }
+
+/*-----<<< TOOLBAR >>>------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.toolbar { padding: 4px 11px 0px 11px; background-color: #FFFFFF; }
+.toolbarText{font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size:9px;}
+.toolbarButtonGroup {}
+.toolbarTable { margin-bottom: 12px; }
+
+td.toolbarText a {color:#00008B;font-weight:normal;}
+td.toolbarText a:hover {color:#000000;font-weight:normal;text-decoration:none;}
+
+  /*-----<< Right-Cap Toolbar Button >>------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  .toolbarButtonREndcap {cursor:pointer;float:left;}
+  table.toolbarButtonREndcap td {color:#000000; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;}
+  table.toolbarButtonREndcap .toolbarButtonLCap { background-image: url(../images/toolbar_buttonlcap_std.gif); background-position: right;}
+  table.toolbarButtonREndcap .toolbarButtonBack { background-image: url(../images/toolbar_buttontile_std.gif);}
+  table.toolbarButtonREndcap .toolbarButtonRCap { background-image: url(http://www.onetruemedia.com/otm_site/images/wrapper/toolbar_buttonendrcap_std.gif); background-position: left;}
+
+  .toolbarButtonREndcapOver {cursor:pointer;float:left;}
+  table.toolbarButtonREndcapOver td {color:#FFFFFF; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;}
+  table.toolbarButtonREndcapOver .toolbarButtonLCap { background-image: url(../images/toolbar_buttonlcap_over.gif); background-position: right;}
+  table.toolbarButtonREndcapOver .toolbarButtonBack { background-image: url(../images/toolbar_buttontile_over.gif);}
+  table.toolbarButtonREndcapOver .toolbarButtonRCap { background-image: url(http://www.onetruemedia.com/otm_site/images/wrapper/toolbar_buttonendrcap_over.gif); background-position: left;}
+
+  .toolbarButtonREndcapDown {cursor:pointer;float:left;}
+  table.toolbarButtonREndcapDown td {color:#FFFFFF; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;}
+  table.toolbarButtonREndcapDown .toolbarButtonLCap { background-image: url(../images/toolbar_buttonlcap_down.gif); background-position: right;}
+  table.toolbarButtonREndcapDown .toolbarButtonBack { background-image: url(../images/toolbar_buttontile_down.gif);}
+  table.toolbarButtonREndcapDown .toolbarButtonRCap { background-image: url(http://www.onetruemedia.com/otm_site/images/wrapper/toolbar_buttonendrcap_down.gif); background-position: left;}
+
+
+
+  /*-----<< Standard Toolbar Button >>-------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  .toolbarButton {cursor:pointer;float:left;}
+  table.toolbarButton td {color:#333333; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  }
+  table.toolbarButton .toolbarButtonLCap { background-image: url(../images/toolbar_buttonlcap_std.gif); background-position: right;}
+  table.toolbarButton .toolbarButtonBack { background-image: url(../images/toolbar_buttontile_std.gif);  white-space: nowrap;  }
+  table.toolbarButton .toolbarButtonRCap { background-image: url(../images/toolbar_buttonrcap_std.gif); background-position: left;}
+
+  .toolbarButtonOver {cursor:pointer;float:left;}
+  table.toolbarButtonOver td {color:#000000; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  }
+  table.toolbarButtonOver .toolbarButtonLCap { background-image: url(../images/toolbar_buttonlcap_over.gif); background-position: right;}
+  table.toolbarButtonOver .toolbarButtonBack { background-image: url(../images/toolbar_buttontile_over.gif);  white-space: nowrap; }
+  table.toolbarButtonOver .toolbarButtonRCap { background-image: url(../images/toolbar_buttonrcap_over.gif); background-position: left;}
+
+  .toolbarButtonDown {cursor:pointer;float:left;}
+  table.toolbarButtonDown td {color:#FFFFFF; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  }
+  table.toolbarButtonDown .toolbarButtonLCap { background-image: url(../images/toolbar_buttonlcap_down.gif); background-position: right;}
+  table.toolbarButtonDown .toolbarButtonBack { background-image: url(../images/toolbar_buttontile_down.gif);   white-space: nowrap;}
+  table.toolbarButtonDown .toolbarButtonRCap { background-image: url(../images/toolbar_buttonrcap_down.gif); background-position: left;}
+
+
+/*-----<<< FORMS >>>-------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.formFieldLabel {font-family: Arial, Helvetica, sans-serif;  font-size: 11px; Display: block;  text-align: left;  padding: 0px 6px 0px 4px;color: #707070;  line-height: 20px;  margin-top: -3px;  margin-bottom: 3px;                           }
+.formFieldLabelRequired {font-family: Arial, Helvetica, sans-serif;  font-size: 11px; Display: block;  text-align: left;  padding: 0px 6px 0px 4px;color: #B22222;  line-height: 20px;  margin-top: -3px;  margin-bottom: 3px;                           }
+
+.formInputField {height:22px;padding:3px 0px 0px 2px;border: 1px solid #F0F0F0; border-bottom: 1px solid #C0C0C0;border-left: 1px solid #C0C0C0;background-color: #FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #656565;}
+.formInputFieldHover {height:22px;padding:3px 0px 0px 2px;border: 1px solid #A0A0A0;background-color: #FFFFFF;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #000000;}
+/*.formInputFieldFilled {height:22px;padding:3px 0px 0px 2px;border: 1px solid #F0F0F0;border-bottom: 1px solid #CACACA; background-color: #F0F0F0;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #656565;}*/
+/*.formInputFieldFilledHover {height:22px;padding:3px 0px 0px 2px;border: 1px solid #A0A0A0;border-bottom: 1px solid #CACACA;background-color: #FFFFFF;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #656565;}*/
+.formInputFieldSelected {height:22px;padding:3px 0px 0px 2px;border: 1px solid #000000;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px;}
+
+.staticInputField {padding:3px 0px 0px 2px;border: 1px solid #F0F0F0; border-bottom: 1px solid #C0C0C0;border-left: 1px solid #C0C0C0;background-color: #FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #656565;}
+
+textarea.formInputField {height:auto;padding:8px 0px 0px 2px;border: 1px solid #F0F0F0; border-bottom: 1px solid #C0C0C0;border-left: 1px solid #C0C0C0;background-color: #FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #656565;  line-height: 18px; }
+textarea.formInputFieldHover {height:auto;padding:8px 0px 0px 2px;border: 1px solid #A0A0A0;background-color: #FFFFFF;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #000000;line-height: 18px;}
+/*textarea.formInputFieldFilled {height:auto;padding:8px 0px 0px 2px;border: 1px solid #F0F0F0; border-bottom: 1px solid #C0C0C0;border-left: 1px solid #C0C0C0;background-color: #F0F0F0;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #656565;line-height: 18px;}*/
+/*textarea.formInputFieldFilledHover {height:auto;padding:8px 0px 0px 2px;border: 1px solid #A0A0A0;border-bottom: 1px solid #CACACA;background-color: #FFFFFF;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #656565;line-height: 18px;}*/
+textarea.formInputFieldSelected {height:auto;padding:8px 0px 0px 2px;border: 1px solid #000000;background-color: #FFFFFF;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: bold; color: #000000;line-height: 18px;}
+
+.formCheckRow { }
+.formCheckRowOver { }
+tr.formCheckRow .formFieldDescription, div.formCheckRow .formFieldDescription { font-family: Arial, Helvetica, sans-serif; font-size: 13px; display: inline-block; padding: 0px 6px 0px 0px; color: #707070; line-height: 21px; margin-bottom: 0px; }
+tr.formCheckRowOver .formFieldDescription, div.formCheckRowOver .formFieldDescription { font-family: Arial, Helvetica, sans-serif; font-size: 13px; display: inline-block; padding: 0px 6px 0px 0px; color: #000000; line-height: 21px; margin-bottom: 0px; }
+
+.formItemDescription { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 11px;  color: #626262;}
+
+div.formCheckRow table tr td img { border: 1px dotted #999999; }
+div.formCheckRowOver table tr td img { border: 1px solid #666666; }
+
+table.fileUploadTable { padding: 0px; }
+.fileBrowseField { padding: 3px 0px 0px 2px; border: 1px solid #F0F0F0; border-bottom: 1px solid #C0C0C0; border-left: 1px solid #C0C0C0; background-color: #FFFFFF; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; margin-right: 11px; font-size: 13px; font-weight: normal; color: #414141; }
+
+/*-----<<< DEPRICATE >>>---------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/*.tableDescription { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px;  color: #666666;  padding:5px 0px 15px 0px; }*/
+
+a.genericLink:visited,a.genericLink:link { font-family: Arial, Helvetica, sans-serif;  font-size: 14px;  color: #3D4B8F;  margin-left: 8px; font-weight:normal;   }
+a.genericLink:hover {font-weight:bold;color:#000000;}
+
+/*-----<<< NEW HEADER >>>---------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.nhGlobals,.nhDate {text-align: right; padding-right: 24px; }
+.nhHeaderRight {background:#F0F0F0 url(http://www.onetruemedia.com/otm_site/images/nh_globalrcap.gif) left top;}
+td.nhGlobals a:visited,td.nhGlobals a:link{ font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  color: #000000; font-weight:bold;}
+td.nhGlobals a:hover{text-decoration:none;}
+.nhDate {font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  color: #000000;}
+.nhTitle { background-image: url(../images/nh_title1.gif); height:38px;  font-family: Arial, Helvetica, sans-serif;  font-size: 14px; font-weight:bold;  padding-top: 8px;  background-repeat: repeat-x;   }
+.nhSalutation { background-image: url(../images/nh_title1.gif); height:38px;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px; font-weight:bold; text-align:right;}
+.nhSalutation a {color:#e65e12;} /*315487*/
+
+.nhLeft { background-image: url(../images/nh_ltile.gif); }
+.nhRight { background-image: url(../images/nh_rtile.gif); }
+.nhTunnel { text-align: right; background-image: url(../images/nh_title1.gif);  background-repeat: repeat-x; margin:0px!important; padding:11px 5px 8px 0px!important; }
+.nhProcessText { font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  text-align: center; padding-bottom: 15px; width:65px; }
+
+.nhProcess,.nhProcessOver,.nhProcessDown,.nhProcessActive,.nhProcessActiveOver,.nhProcessDisabled {width:73px;height:37px; font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  text-align: center;padding-top: 5px;  line-height: 12px; font-weight: normal;}
+.nhProcess,.nhProcessOver,.nhProcessDown,.nhProcessActive,.nhProcessActiveOver {cursor: pointer;       }
+.nhProcess {background-image: url(../images/nh_step.gif);}
+.nhProcessOver {background-image: url(../images/nh_step_over.gif); }
+.nhProcessDown {background-image: url(../images/nh_step_down.gif); }
+.nhProcessActive {background-image: url(../images/nh_step_active.gif);  cursor: default;}
+.nhProcessActiveOver {background-image: url(../images/nh_step_active_over.gif);}
+.nhProcessDisabled {background-image: url(../images/nh_step_disabled.gif);  cursor: default;}
+
+  td.nhTitle a:visited, td.nhTitle a:link { color: #EB7E24; }
+  td.nhTitle a:hover { color: #000000; text-decoration:none;}
+
+  /*-----<< CHANGE LAYOUT PICKER >>-------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------- */
+.divpopup {display:none; border:0px; width:475px; height:370px; overflow:hidden; position:absolute; top:40px; left:40px; background-color:transparent; z-index:100;}
+table.winOff .divpopupscroll {height:283px; overflow:auto; background-image:url('../images/popupbg.gif'); background-repeat:repeat-y;}
+table.winOver .divpopupscroll {height:283px; overflow:auto; background-image:url('../images/popupbgover.gif'); background-repeat:repeat-y;}
+.layoutThumb, .layoutThumbSelected {display: block; position:relative; float:left; width:100px; height:100px; }
+.layoutThumb {background:url(../images/layout_bg.gif) no-repeat left top;}
+.layoutThumbSelected {background:#9BA1D3 url(../images/layout_bg_sel.gif) no-repeat left top;}
+.divpopup .winbody img {position:absolute; left:13px; top:12px; border:0px; padding:0px;}
+.layoutThumbOver {cursor: pointer;}
+.layout_instruction {visibility:hidden;position:absolute; z-index:50; top:0px; left: 0px; width:100px; height:100px; background:url(../images/layout_instruction_c.gif) no-repeat left top;}
+.layout_instruction_nc {visibility:hidden;position:absolute; z-index:50; top:0px; left: 0px; width:100px; height:100px; background:url(../images/layout_instruction_nc.gif) no-repeat left top;}
+.layoutThumbOver .layout_instruction, .layoutThumbOver .layout_instruction_nc {visibility:visible;}
+
+.divpopup .winbody div.thumbnailHeader {width:100%; height:20px; clear:both; float:none; text-align:left; text-indent: 15px; padding-top:2px; font-size:13px; background-image:url('../images/thumbnailHeader.gif'); background-position:center top; background-repeat:no-repeat;}
+.changelayoutcontrol {position:absolute; top:0px; left:20px; z-index:2;}
+.changelayoutcontrol img {border:0px;}
+
+.xControlHdr { background-image: url(../images/xhdr_back.gif);  background-repeat: repeat-x;  background-position: top; text-align:right;}
+td.xControlHdr a:visited,td.xControlHdr a:link { font-family: Arial, Helvetica, sans-serif;  color: #000000;  font-size: 12px;   }
+td.xControlHdr a:hover {text-decoration:none;}
+
+  /*-----<< Hot Toolbar Button >>-------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  .hottoolbarButton {cursor:pointer;float:left;}
+  table.hottoolbarButton td {color:#333333; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  }
+  table.hottoolbarButton .toolbarButtonLCap { background-image: url(../images/toolbar_hotbuttonlcap_std.gif); background-position: right;}
+  table.hottoolbarButton .toolbarButtonBack { background-image: url(../images/toolbar_hotbuttontile_std.gif);  white-space: nowrap;  }
+  table.hottoolbarButton .toolbarButtonRCap { background-image: url(../images/toolbar_hotbuttonrcap_std.gif); background-position: left;}
+
+  .hottoolbarButtonOver {cursor:pointer;float:left;}
+  table.hottoolbarButtonOver td {color:#000000; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  }
+  table.hottoolbarButtonOver .toolbarButtonLCap { background-image: url(../images/toolbar_hotbuttonlcap_over.gif); background-position: right;}
+  table.hottoolbarButtonOver .toolbarButtonBack { background-image: url(../images/toolbar_hotbuttontile_over.gif);  white-space: nowrap; }
+  table.hottoolbarButtonOver .toolbarButtonRCap { background-image: url(../images/toolbar_hotbuttonrcap_over.gif); background-position: left;}
+
+  .hottoolbarButtonDown {cursor:pointer;float:left;}
+  table.hottoolbarButtonDown td {color:#FFFFFF; font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  }
+  table.hottoolbarButtonDown .toolbarButtonLCap { background-image: url(../images/toolbar_hotbuttonlcap_down.gif); background-position: right;}
+  table.hottoolbarButtonDown .toolbarButtonBack { background-image: url(../images/toolbar_hotbuttontile_down.gif);   white-space: nowrap;}
+  table.hottoolbarButtonDown .toolbarButtonRCap { background-image: url(../images/toolbar_hotbuttonrcap_down.gif); background-position: left;}
+
+	/*-----<< Toolbar Links >>------------------------------------------------------------------------------ */
+	/* ----------------------------------------------------------------------------------------------------- */
+
+	td.toolbarLinks { font-family: Arial, Helvetica, sans-serif;  font-size: 12px; }
+	td.toolbarLinks a:visited,td.toolbarLinks a:link { margin-right: -3px; background-image: url(../images/toolbar_link.gif); height:33px;padding:11px 8px 10px 8px;  background-position: right; }
+	td.toolbarLinks a:visited,td.toolbarLinks a:link { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 10px; text-decoration: none; color:#FFFFFF; font-weight:bold;  }
+	td.toolbarLinks a:hover { background-image: url(../images/toolbar_link_over.gif); color:#000000;}
+
+	/*-----<< Page Level Help >>---------------------------------------------------------------------------- */
+	/* ----------------------------------------------------------------------------------------------------- */
+	tr.showHelp {display:;}
+	tr.hideHelp {display:none;}
+	.helpBar { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 11px;  padding: 5px 15px 5px 15px;  border-bottom-color: #B9B9B9;  border-bottom-style: dotted;  border-bottom-width: 1px;      }
+
+	/*-----<< Marketing Content >>---------------------------------------------------------------------------- */
+	/* ----------------------------------------------------------------------------------------------------- */
+	.buyMktg { margin: 0px 0px 0px 20px; padding: 0px 0px 0px 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 11px;  border-left: 1px solid #CCCCCC;}
+
+	/*-----<< Resolution Warning Alert >>---------------------------------------------------------------------------- */
+	/* ----------------------------------------------------------------------------------------------------- */
+	.resolution_alert {
+	  position: absolute;
+	  width:24px;
+	  height:24px;
+	  z-index:20;
+	}
+
+	#dhtmltooltip{     /* for tooltip.js to display dhtml tooltips onmouseover */
+		position: absolute;
+		width: 200px;
+		border: 1px solid black;
+		padding: 2px;
+		/*background-color: #FFDD57;*/
+		background-color: #EEEEF0;
+		visibility: hidden;
+		z-index: 100;
+		font:10px/12px verdana, arial, sans-serif;
+	}

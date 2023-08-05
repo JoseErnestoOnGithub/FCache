@@ -1,0 +1,184 @@
+# invoke rewrite engine
+RewriteEngine On
+RewriteBase /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/
+
+Options -Indexes
+<IfModule mod_negotiation.c>
+	Options -MultiViews
+</IfModule>
+
+# Prevent scraping from archive for free demo
+RewriteCond %{HTTP_USER_AGENT} (ia_archiver) [NC]
+RewriteRule . - [F,L]
+
+# Add a trailing slash (/) to a URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]*$
+RewriteRule .*[^/]$ %{REQUEST_URI}/ [L,R=301]
+
+# Specific redirections
+RewriteRule ^index\.html$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/ [L,R=301]
+RewriteCond %{QUERY_STRING} ^p\=1eb3d77b7f276afad3aecb$
+RewriteRule ^otm_site/share_view_player/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/share_view_player-p-1eb3d77b7f276afad3aecb/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1$
+RewriteRule ^otm_site/public_home/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/public_home-p-1/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=2$
+RewriteRule ^otm_site/public_home/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/public_home-p-2/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=3$
+RewriteRule ^otm_site/public_home/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/public_home-p-3/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^origin\=wedding$
+RewriteRule ^otm_site/start/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/start-origin-wedding/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^origin\=cosmo$
+RewriteRule ^otm_site/start/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/start-origin-cosmo/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^origin\=$
+RewriteRule ^otm_site/start/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/start-origin/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^subject\=feedback$
+RewriteRule ^otm_site/customer_service/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/customer_service-subject-feedback/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=all&mode\=viewed&period\=week&topnav\=1$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-all-mode-viewed-period-week-topnav-1/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=all&mode\=recent&topnav\=1$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-all-mode-recent-topnav-1/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=27$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-27/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=all&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-all-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=11&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-11-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=12&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-12-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=13&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-13-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=14&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-14-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=26&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-26-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=15&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-15-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=16&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-16-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=24&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-24-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=17&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-17-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=18&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-18-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=19&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-19-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=25&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-25-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=20&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-20-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=21&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-21-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=22&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-22-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=27&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-27-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^id\=23&mode\=&period\=$
+RewriteRule ^otm_site/view_category/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_category-id-23-mode--period/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1ab410eb5ecb5dcb21dde4&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1ab410eb5ecb5dcb21dde4-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=158c2af72ac048f3dde0d&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-158c2af72ac048f3dde0d-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1269757a1f49f915478a9d&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1269757a1f49f915478a9d-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=19ad3b361c0512bee5b1ca&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-19ad3b361c0512bee5b1ca-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=572537003b59d9175dfc4&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-572537003b59d9175dfc4-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1747f3a9afac354bcc4a31&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1747f3a9afac354bcc4a31-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1e744143653cec84c0e4f9&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1e744143653cec84c0e4f9-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1b4a4cf9328aa801fa1490&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1b4a4cf9328aa801fa1490-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1a6e278bf8e192499b5dfa&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1a6e278bf8e192499b5dfa-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1ed9c2b3511d056fb62657&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1ed9c2b3511d056fb62657-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1f90cacd816c0440891afb&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1f90cacd816c0440891afb-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1c34ecf278cc65a87df518&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1c34ecf278cc65a87df518-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1f7d4046e6960e1e936fcc&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1f7d4046e6960e1e936fcc-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1e7dca3d94f70bbd4ba62f&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1e7dca3d94f70bbd4ba62f-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1ef169fd2b232e70cf1124&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1ef169fd2b232e70cf1124-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1f6f6aa48e629414ecb274&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1f6f6aa48e629414ecb274-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1f59ec9ea64ddf79d10917&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1f59ec9ea64ddf79d10917-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=146986345ddf58d7f43ffe&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-146986345ddf58d7f43ffe-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201e87a96f9b92d9619684&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201e87a96f9b92d9619684-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201e7029b616a6decdd9c2&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201e7029b616a6decdd9c2-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=2017218ae3cb34b25ab7bc&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-2017218ae3cb34b25ab7bc-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201dff74078a062e8c24f8&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201dff74078a062e8c24f8-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201dec6d29dcc737383db0&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201dec6d29dcc737383db0-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=2012a9010ac6ef379403c5&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-2012a9010ac6ef379403c5-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201c61b4e333d5ef6561e0&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201c61b4e333d5ef6561e0-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201d1c1b01a4283a097571&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201d1c1b01a4283a097571-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1f925145c5d3e6f13a0d4e&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1f925145c5d3e6f13a0d4e-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1f3ba245f114d6a0427d01&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1f3ba245f114d6a0427d01-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201be6fa3da3f351a1dd5d&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201be6fa3da3f351a1dd5d-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1fe10d42002f916803d1ee&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1fe10d42002f916803d1ee-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=201aef6ea52f01ad7dfdad&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-201aef6ea52f01ad7dfdad-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=2004530669de950a1f11c8&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-2004530669de950a1f11c8-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1ffe0e1a2369bb1702c0d8&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1ffe0e1a2369bb1702c0d8-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=1db88f9a99c6cd6cc4a590&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-1db88f9a99c6cd6cc4a590-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=200b8fb5fc2888a4013299&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-200b8fb5fc2888a4013299-source-browse/ [L,R=301,QSD]
+RewriteCond %{QUERY_STRING} ^p\=2018d8e6773cd03ea1d8d6&source\=browse$
+RewriteRule ^otm_site/view_shared/?$ /scraping/files/demo/onetruemedia.com_wisar74498_weizixu.com_v2j1vvchwo/otm_site/view_shared-p-2018d8e6773cd03ea1d8d6-source-browse/ [L,R=301,QSD]
+
+# Create pretty URLs
+RewriteRule ^([^/]+)/$ $1.html [S=9]
+RewriteRule ^([^/]+)/([^/]+)/$ $1/$2.html [S=8]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3.html [S=7]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4.html [S=6]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5.html [S=5]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6.html [S=4]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7.html [S=3]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8.html [S=2]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8/$9.html [S=1]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/$ $1/$2/$3/$4/$5/$6/$7/$8/$9/$10.html
+# End: Create pretty URLs
+
+# Redirect all extensions to html
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.shtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.phtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jhtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.htm$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.php$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.aspx$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.asp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jsp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.apk$ $1.html [L,NC,R=301]
+# End: Redirect all extensions to html

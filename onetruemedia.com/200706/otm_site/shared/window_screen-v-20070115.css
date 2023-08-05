@@ -1,0 +1,647 @@
+/*===== WINDOW COMPONENTS ========================================*/
+.buttonContainer { }
+.radio_button_label {margin-bottom:0px; padding-bottom:0px; margin-top:0px; padding-top:0px;}
+
+/* +++++ WINDOW OFF ++++++++++++++++++++++++++++++++++++ */
+.winOff {}
+/*.winOff {filter:progid:DXImageTransform.Microsoft.BasicImage(opacity=0.75);-moz-opacity: 0.8;}*/
+
+/* ----- Header ------------------------------ */
+table.winOff .winHeader { }  /*Window Header Container*/
+table.winOff .winHeaderBack {background-image: url(../images/window_u_off.gif);  background-position: top;  background-repeat: repeat-x;    }
+table.winOff .winTitleTxt { font-family: Arial, Helvetica, sans-serif; font-size: 17px; padding: 4px 0px 0px 5px; font-weight: bold; color: #737373;  background-image: url(../images/window_u_off.gif);  background-position: top;  background-repeat: repeat-x;    }
+
+table.winOff .windowUL { background-image: url(../images/window_ul_off.gif); }
+table.winOff .windowUR { background-image: url(../images/window_ur_off.gif); }
+
+/*table.winOff .winHeaderBackL { background-image: url(http://www.onetruemedia.com/otm_site/images/window/window_strokel_off.gif);  background-position: right;  background-repeat: no-repeat;   }
+table.winOff .winHeaderBackR { background-image: url(http://www.onetruemedia.com/otm_site/images/window/window_stroker_off.gif);  background-position: left;  background-repeat: no-repeat;   }*/
+
+
+
+/* ----- Body ------------------------------ */
+table.winOff .winBody { }  /*Window Body Container*/
+table.winOff .window { /* background-image: url(http://www.onetruemedia.com/otm_site/images/window/window_contentu_off.gif); */ background-position: top; background-repeat: repeat-x; background-color: #FFFFFF; padding: 2px 12px 8px 12px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #4C4C4C;  }
+
+table.winOff .windowL { background-image: url(../images/window_l_off.gif); }
+table.winOff .windowR { background-image: url(../images/window_r_off.gif); }
+
+/* ----- Bottom ------------------------------ */
+table.winOff .winBottom {margin-bottom:12px; }  /*Window Bottom Container*/
+table.winOff .windowBL { background-image: url(../images/window_bl_off.gif); }
+table.winOff .windowB { background-image: url(../images/window_b_off.gif); }
+table.winOff .windowBR { background-image: url(../images/window_br_off.gif); }
+
+/* +++++ WINDOW OVER ++++++++++++++++++++++++++++++++++++ */
+.winOver {}
+
+/* ----- Header ------------------------------ */
+table.winOver .winHeader { }  /*Window Header Container*/
+table.winOver .winHeaderBack {background-image: url(../images/window_u.gif);  background-position: top;  background-repeat: repeat-x;    }
+table.winOver .winTitleTxt { font-family: Arial, Helvetica, sans-serif; font-size: 17px; padding: 4px 0px 0px 5px; font-weight: bold; color: #010101;  background-image: url(../images/window_u.gif);  background-position: top;  background-repeat: repeat-x;    }
+
+table.winOver .windowUL { background-image: url(../images/window_ul.gif); }
+table.winOver .windowUR { background-image: url(../images/window_ur.gif); }
+
+table.winOver .winHeaderBackL { background-image: url(../images/window_strokel.gif);  background-position: right;  background-repeat: no-repeat;   }
+table.winOver .winHeaderBackR { background-image: url(../images/window_stroker.gif);  background-position: left;  background-repeat: no-repeat;   }
+
+/* ----- Body ------------------------------ */
+table.winOver .winBody { }  /*Window Body Container*/
+table.winOver .window { background-image: url(../images/window_contentu.gif); background-position: top; background-repeat: repeat-x; background-color: #FFFFFF; padding: 2px 12px 8px 12px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #4C4C4C;  }
+
+table.winOver .windowL { background-image: url(../images/window_l.gif); }
+table.winOver .windowR { background-image: url(../images/window_r.gif); }
+
+/* ----- Bottom ------------------------------ */
+table.winOver .winBottom {margin-bottom:12px; }  /*Window Bottom Container*/
+table.winOver .windowBL { background-image: url(../images/window_bl.gif); }
+table.winOver .windowB { background-image: url(../images/window_b.gif); }
+table.winOver .windowBR { background-image: url(../images/window_br.gif); }
+
+/*===== WINDOW LIST ========================================*/
+
+/* added by deb for column header sorting
+tr.winListColHeader a {color: #4C4C4C; text-decoration:none; }
+tr.winListColHeader a:hover {color: #4C4C4C; text-decoration:underline; }
+td.winListColSortAsc a {background-image: url(http://www.onetruemedia.com/otm_site/images/window/colHeadSortAsc.gif); background-position: center right; background-repeat: no-repeat; padding-right:12px; }
+td.winListColSortDes a {background-image: url(http://www.onetruemedia.com/otm_site/images/window/colHeadSortDes.gif); background-position: center right; background-repeat: no-repeat; padding-right:12px; }
+*/
+
+/* DEP */ .winList { /*background-image: url(http://www.onetruemedia.com/otm_site/images/window/window_contentu.gif); */background-position: top; background-repeat: repeat-x; background-color: Fuchsia; padding: 2px 12px 8px 12px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; color: #4C4C4C; }
+
+.winListFormCell { padding: 1px 0px 0px 0px !important; }
+tr.winListColHeader td { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px; font-weight:bold; padding: 0px 6px 4px 6px; border-bottom: 1px solid #A6A6A6; color: #4C4C4C}
+.winListRowOff td {height:16px;border-bottom: 1px solid #E4E4E4;}
+.lnavDivider td {border-bottom: 3px solid #E4E4E4!important;} /* added by deb */
+.winListRowLCap,.winListRowRCap { padding: 0px 0px 0px 0px !important; border:0px !important;}
+tr.winListRowOff td.winListRowLCap,tr.winListRowOff td.winListRowRCap {vertical-align: bottom;}
+tr.winListRowOff td.winListRowLCap img,tr.winListRowOff td.winListRowRCap img {visibility: hidden;}
+tr.winListRowOver td,tr.winListRowOff td { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 11px; padding: 5px 6px 7px 6px;color: #4C4C4C}
+.winListRowOver td {cursor: pointer;color:#000000 !important;background-color: #DFE3EB;border-bottom: 1px solid #EEF0F2;/*border-top: 1px solid #C5C5C5; */ background-image: url(http://www.onetruemedia.com/otm_site/images/shadrow_b.gif);  background-position: bottom;  background-repeat: repeat-x;   }
+tr.winListRowOver td.winListRowLCap {vertical-align: bottom; background-image: url(../images/shadrow_ul.gif); background-position: top left; background-repeat: no-repeat;}
+tr.winListRowOver td.winListRowRCap {text-align:right;vertical-align: bottom; background-image: url(../images/shadrow_ur.gif); background-position: top right; background-repeat: no-repeat;}
+tr.winListRowGroup td {font-weight:bold; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px; padding: 5px 6px 7px 6px;color: #4C4C4C;height:16px;border-bottom: 1px solid #E4E4E4;  background-color: #DCDCDC; }
+
+/* added by deb for TOC */
+tr.winListRowOff td a:link, tr.winListRowOff a:visited {color: #662F06; text-decoration: none; }
+tr.winListRowOff td a:hover {color: #000; text-decoration: underline; }
+tr.winListRowOff span {float: right; font-weight:normal; font-size:9px; }
+tr.winListRowOff span a {color: #00008B; }
+tr.winListRowOff span a:hover {color: 000; text-decoration: none; }
+
+/*===== PREVIOUS-NEXT ========================================*/
+div.previewarea {text-align:center; width:500px; overflow:auto; }
+.winTitlePrevNext { font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding: 4px 0px 0px 0px; font-weight: bold; color: #5F5F5F;  background-image: url(../images/window_u_off.gif);  background-position: top;  background-repeat: repeat-x; }
+
+
+
+
+.winBody2 { background-color: #FFCC00; }
+
+/* ----- Buttons ------------------------------ */
+.winButtons { }  /*Window Button Bar Container*/
+.winBar { background-image: url(../images/window_dotline.gif); background-position: top; background-repeat: repeat-x;  padding: 14px 12px 0px 12px;  background-color: #FFFFFF;}
+.winBarTop { background-image: url(../images/window_dotline.gif); background-position: bottom; background-repeat: repeat-x;  padding: 4px 12px 10px 12px;  background-color: #FFFFFF;}
+.button {/* float:left; border:1px solid #FFFFFF; */}
+.buttonOver { cursor: pointer;/* float:left*/;/*border: 1px dotted #909090;*/}
+
+table.button .winButtonBack { background-image: url(../images/winbutton_off.gif);font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #3F3F3F; padding:0px 0px 5px 0px;}
+table.button .winButtonLCap { background-image: url(../images/winbutton_lcap_off.gif); }
+table.button .winButtonRCap { background-image: url(../images/winbutton_rcap_off.gif); }
+
+table.buttonOver .winButtonBack { background-image: url(../images/winbutton_over.gif);font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #000000;  padding:0px 0px 5px 0px;}
+table.buttonOver .winButtonLCap { background-image: url(../images/winbutton_lcap_over.gif); }
+table.buttonOver .winButtonRCap { background-image: url(../images/winbutton_rcap_over.gif); }
+
+/* ----- Grey Button ------------------------------ */
+table.button .winButtonBackGrey { background-image: url(../images/winbuttongrey_off.gif);font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #3F3F3F; padding:0px 0px 5px 0px;}
+table.button .winButtonLCapGrey { background-image: url(../images/winbuttongrey_lcap_off.gif); }
+table.button .winButtonRCapGrey { background-image: url(../images/winbuttongrey_rcap_off.gif); }
+
+table.buttonOver .winButtonBackGrey { background-image: url(../images/winbuttongrey_over.gif);font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #000000;  padding:0px 0px 5px 0px;}
+table.buttonOver .winButtonLCapGrey { background-image: url(../images/winbuttongrey_lcap_over.gif); }
+table.buttonOver .winButtonRCapGrey { background-image: url(../images/winbuttongrey_rcap_over.gif); }
+
+/*===== INFO BOX DEFAULTS ====================================*/
+/*   infoBox2 is for the tall, thin reg page boxes       */
+/*   infoBox3 is for the tall, thin reg page upgrade box */
+/*   infoBox4 is for sharing options on view_product */
+/*   infoBox5 is for the TiVo channel list page */
+
+.instructionRightSide {vertical-align:top; padding-top:8px;} /*-- for message on book preview pg --*/
+
+table.infoBox, table.infoBox2, table.infoBox3, table.infoBox4, table.infoBox5 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color:#6f6f6f;
+    background-color: #fff;
+    margin:0px 0px 4px 0px;
+}
+table.infoBoxOver, table.infoBox2Over { color:#000!important; }
+.infoTopL, .infoTopR, .infoBottomL, .infoBottomR {
+    width:12px;
+    height:12px;
+    padding:0px;
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    }
+.infoTop, .infoBottom {
+    background-repeat:repeat-x;
+    width:100%;
+}
+table.infoBox .infoTopL, table.infoBox2 .infoTopL, table.infoBox4 .infoTopL { background-image:  url(../images/infoBorderTopL.gif); }
+table.infoBox .infoTop, table.infoBox2 .infoTop, table.infoBox4 .infoTop { background-image:  url(../images/infoBorderTop.gif); }
+table.infoBox .infoTopR, table.infoBox2 .infoTopR, table.infoBox4 .infoTopR { background-image:  url(../images/infoBorderTopR.gif); }
+table.infoBox .infoBottomL, table.infoBox2 .infoBottomL, table.infoBox4 .infoBottomL { background-image: url(../images/infoBorderBottomL.gif); }
+table.infoBox .infoBottom, table.infoBox2 .infoBottom, table.infoBox4 .infoBottom { background-image: url(../images/infoBorderBottom.gif); }
+table.infoBox .infoBottomR, table.infoBox2 .infoBottomR, table.infoBox4 .infoBottomR { background-image: url(../images/infoBorderBottomR.gif); }
+
+table.infoBoxOver .infoTopL, table.infoBox2Over .infoTopL, table.infoBox4Over .infoTopL { background-image:  url(../images/infoBorderOverTopL.gif); }
+table.infoBoxOver .infoTop, table.infoBox2Over .infoTop, table.infoBox4Over .infoTop { background-image:  url(../images/infoBorderOverTop.gif); }
+table.infoBoxOver .infoTopR, table.infoBox2Over .infoTopR, table.infoBox4Over .infoTopR { background-image:  url(../images/infoBorderOverTopR.gif); }
+table.infoBoxOver .infoBottomL, table.infoBox2Over .infoBottomL, table.infoBox4Over .infoBottomL { background-image: url(../images/infoBorderOverBottomL.gif); }
+table.infoBoxOver .infoBottom, table.infoBox2Over .infoBottom, table.infoBox4Over .infoBottom { background-image: url(../images/infoBorderOverBottom.gif); }
+table.infoBoxOver .infoBottomR, table.infoBox2Over .infoBottomR, table.infoBox4Over .infoBottomR { background-image: url(../images/infoBorderOverBottomR.gif); }
+
+table.infoBox .infoSideL, table.infoBox2 .infoSideL, table.infoBox3 .infoSideL, table.infoBox4 .infoSideL { border-left:1px solid #C4C4C4; }
+table.infoBox .infoSideR, table.infoBox2 .infoSideR, table.infoBox3 .infoSideR, table.infoBox4 .infoSideR { border-right:1px solid #C4C4C4; }
+table.infoBoxOver .infoSideL, table.infoBox2 .infoSideL, table.infoBox3 .infoSideL, table.infoBox4 .infoSideL { border-left:1px solid #bbb; }
+table.infoBoxOver .infoSideR, table.infoBox2 .infoSideR, table.infoBox3 .infoSideR, table.infoBox4 .infoSideR { border-right:1px solid #bbb; }
+
+.infoImage {
+    text-align:center;
+    vertical-align:top;
+    padding-bottom:7px;
+}
+.infoTitle {
+    font-size: 13px;
+    font-weight:bold;
+}
+
+.infoDetails {
+    vertical-align: top;
+    padding:0px;
+    line-height:15px;
+}
+
+.infoHint { font-size: 9px; }
+.infoBox li, .infoBox2 li, .infoBox3 li { margin-left:-23px; }
+.infoBox ul, .infoBox2 ul, .infoBox3 ul { margin-bottom:0px; padding-bottom:0px; }
+
+.infoBox a:hover, .infoBox2 a:hover, .infoBox3 a:hover {text-decoration:underline;}
+.infoBox a {color:#6f6f6f; font-size:13px; font-weight:bold; text-decoration:none;}
+
+/*===== INFO BOX SPECIAL STYLES ==============================*/
+table.infoBox2, table.infoBox3 {
+    height:440px;
+    width:170px;
+    float:left;
+}
+table.infoBox3 {
+    background-color:#8790B7;
+    color:#ddd;
+}
+table.infoBox3Over { color:#fff; }
+
+table.infoBox3 .infoTopL { background-image:  url(../images/infoBorder3TopL.gif); }
+table.infoBox3 .infoTop { background-image:  url(../images/infoBorder3Top.gif); }
+table.infoBox3 .infoTopR { background-image:  url(../images/infoBorder3TopR.gif); }
+table.infoBox3 .infoBottomL { background-image: url(../images/infoBorder3BottomL.gif); }
+table.infoBox3 .infoBottom { background-image: url(../images/infoBorder3Bottom.gif); }
+table.infoBox3 .infoBottomR { background-image: url(../images/infoBorder3BottomR.gif); }
+
+table.infoBox3Over .infoTopL { background-image:  url(../images/infoBorder3OverTopL.gif); }
+table.infoBox3Over .infoTop { background-image:  url(../images/infoBorder3OverTop.gif); }
+table.infoBox3Over .infoTopR { background-image:  url(../images/infoBorder3OverTopR.gif); }
+table.infoBox3Over .infoBottomL { background-image: url(../images/infoBorder3OverBottomL.gif); }
+table.infoBox3Over .infoBottom { background-image: url(../images/infoBorder3OverBottom.gif); }
+table.infoBox3Over .infoBottomR { background-image: url(../images/infoBorder3OverBottomR.gif); }
+
+table.infoBox2 .infoImage, table.infoBox3 .infoImage { height:222px;}
+
+.infoBox3 a {color:#ddd; text-decoration:none;}
+.infoBox4 a {font-weight:normal; color:#e72; }
+.infoBox4 a:hover {text-decoration:none; }
+table.infoBox4 {padding-bottom:10px;}
+table.infoBox4 a img {border:0px; vertical-align:text-bottom;}
+
+table.infobox.activateAcct td.infoDetails{width:372px; font-size:11pt; line-height:140%;}
+table.infobox.activateAcct td.infoDetails a {font-size:1.1em; color:#EE591A;}
+
+table.infoBox5 {margin-left:20px; margin-right:20px;}
+
+/*-- Hot Buttons -------------------*/
+.hotbutton {/* float:left; border:1px solid #FFFFFF; */}
+.hotbuttonOver { cursor: pointer;/* float:left*/;/*border: 1px dotted #909090;*/}
+
+table.hotbutton .hotwinButtonBack { background-image: url(../images/hotbutton_off.gif);font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #3F3F3F; padding:0px 0px 5px 0px;}
+table.hotbutton .hotwinButtonLCap { background-image: url(../images/hotbutton_lcap_off.gif); }
+table.hotbutton .hotwinButtonRCap { background-image: url(../images/hotbutton_rcap_off.gif); }
+
+table.hotbuttonOver .hotwinButtonBack { background-image: url(../images/hotbutton_over.gif);font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #000000;  padding:0px 0px 5px 0px;}
+table.hotbuttonOver .hotwinButtonLCap { background-image: url(../images/hotbutton_lcap_over.gif); }
+table.hotbuttonOver .hotwinButtonRCap { background-image: url(../images/hotbutton_rcap_over.gif); }
+
+/*===== Rotation Controls ====*/
+a.rotate_l {margin:0px; padding:0px; width:46px; height:46px;background-image:url(../images/rotates_01.gif); background-position:left top; background-repeat:no-repeat; display:block; float:left;}
+a.rotate_r {margin:0px; padding:0px; width:46px; height:46px;background-image:url(../images/rotates_02.gif); background-position:left top; background-repeat:no-repeat; display:block; float:left;}
+a:hover.rotate_l {background-image:url(../images/rotates_03.gif);}
+a:hover.rotate_r {background-image:url(../images/rotates_04.gif);}
+
+/*===== Clipping Controls ====*/
+a.clipStart {margin:0px; padding:0px; width:46px; height:46px;background-image:url(http://www.onetruemedia.com/otm_site/images/clipStart.gif); background-position:left top; background-repeat:no-repeat; display:block; float:left;}
+a.ClipEnd {margin:0px; padding:0px; width:46px; height:46px;background-image:url(http://www.onetruemedia.com/otm_site/images/ClipEnd.gif); background-position:left top; background-repeat:no-repeat; display:block; float:left;}
+a:hover.clipStart {background-image:url(http://www.onetruemedia.com/otm_site/images/clipStartOver.gif);}
+a:hover.clipEnd {background-image:url(http://www.onetruemedia.com/otm_site/images/clipEndOver.gif);}
+
+/*===== Image Editor ====*/
+/*-- the widget --*/
+.editimg {
+  position:relative;
+  background-image:url('../images/editImgBg.gif');
+  background-position:95px top;
+  background-repeat:no-repeat!important;
+  height:332px;
+  z-index:1;
+  overflow: hidden;
+}
+.editimgcontrol {
+  position:absolute;
+  z-index:1;
+  cursor:pointer;
+}
+.editimgBestFit {
+	cursor:pointer;
+	background:url(../images/editImgBestFit.gif) no-repeat bottom left;
+}
+.editimgBestFitOver {
+	cursor:pointer;
+	background:url(../images/editImgBestFit.gif) no-repeat top left;
+}
+
+/*-- book preview --*/
+a.bookeditimgover img.bookphoto {
+  opacity:.5;filter: alpha(opacity=50); -moz-opacity: 0.5;
+}
+div.bookeditimg {
+  position: absolute;
+  cursor:pointer;
+  text-align:center;
+  font-weight:bold;
+  color:#cc9900;
+  font-size:.8em;
+  visibility:hidden;
+  vertical-align:middle;
+}
+a.bookeditimgover div.bookeditimg {
+  visibility:visible;
+}
+.textInBook {
+  position: absolute;
+  cursor:pointer;
+  text-align:center;
+  color:#000;
+  font-family:arial, helvetica, sans-serif;
+  vertical-align:middle;
+}
+.textInBook td {
+	vertical-align:middle;
+}
+.zoomwarning {
+  display:none; text-align:left; width:408px; border:1px solid #B23434; background:#FFC2C2; margin:0px auto; padding:4px;
+  /*border:1px solid #f0e080; background:#ffefc8;*/
+}
+
+/*===== EDIT MONTAGE SONG UI ====*/
+/* OLD STYLES 6/30/06 - DELETE AFTER A WHILE IF NOT NEEDED ANYMORE
+table.songBlock {clear: both; width:100%; padding:0px; margin:0px 0px 15px 0px; border-collapse:collapse; border:1px solid #d0d0d0; background:url('../images/window/songSectionHeader.gif') repeat-x top;}
+table.songBlock table.songSection { font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12px; color: #3D3D3D; padding:0px; height:24px; margin:0px;}
+table.songBlock table.songSection td.songSequence {padding:0px 8px 3px 3px; }
+table.songBlock table.songSection td.songSequence img {cursor:pointer; }
+table.songBlock table.songSection input {border: 1px solid #CCCCCC; width: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #4E4E4E; background-color: #fafafa; text-align: right; }
+table.songBlock table.songSection td.songLabel {white-space:nowrap; font-weight:bold; padding:0px 3px 3px 3px;}
+table.songBlock table.songSection td.songLabel a {font-weight:normal; cursor:pointer; color:#662F06;}
+table.songBlock table.songSection td.songLabel a:hover {text-decoration:none;}
+*/
+
+div.songSequence {float:left; position:absolute; padding:5px 0px 0px 7px; }
+div.songSequence img {cursor:pointer; }
+div.songSequence input {border: 1px solid #CCCCCC; width: 30px!important; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #4E4E4E; background-color: #fafafa; text-align: right; }
+
+/*===== POST ONLINE ====*/
+.formItemDescriptionExtra {vertical-align:middle; width:300px; padding:0px 10px 10px 10px;}
+.selectButton {padding-top:0px; margin-right:5px}
+
+/*===== MY SHARE PAGE ====*/
+a.myShareRemove {display:block; background:url(../images/myShareRemove.gif) no-repeat left top}
+a.myShareRemove:hover {display:block; background:url(../images/myShareRemove.gif) no-repeat left -20px}
+a.myShareUpdate {display:block; background:url(../images/myShareRemove.gif) no-repeat left top}
+a.myShareUpdate:hover {display:block; background:url(../images/myShareRemove.gif) no-repeat left -20px}
+
+/*===== MARKETING SECTION ON PUBLIC GALLERY NEW LOOK ========================================*/
+.txtboxHeader {background-image: url(../images/txtbox_tl.gif);  background-position: top left;  background-repeat: no-repeat;font-family:arial;font-size:12px;font-weight:bold;color:#FFFFFF;padding:3px 0px 0px 25px;}
+.txtboxBody { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 11px;  background-color: #F5F5F5; padding:5px 5px 5px 5px;}
+table.doMore2 {width:100%}
+table.doMore2 td {font-family:verdana, arial, sans-serif; font-size: 10px; vertical-align:bottom; text-align:center;}
+table.doMore2 tr.label td {vertical-align:top; padding-right:14px; text-align:left; }
+table.doMore2 tr.label td td {text-align:center; }
+table.doMore2 tr.label td.last {padding-right:0px;}
+table.doMore2 img {border:0px; margin-bottom:2px; }
+table.doMore2 tr.label h1 {font-family:verdana, arial, sans-serif; font-size:13px; margin:0px; padding:0px 0px 6px 0px;}
+table.doMore2 tr.label a:link, table.doMore2 tr.label a:visited {color:#EB790E!important;}
+table.doMore2 tr.label a:hover {color:#EB790E; }
+
+/*===== AUTH-HOME-MENU ====*/
+.authHomeMenu {padding-top:2px; padding-bottom:8px;}
+.authHomeMenu img {vertical-align:middle; margin:1px 0px;}
+
+/*===== HELP ICON FOR TOOLTIP ====*/
+.flagHelp {border:0px; cursor:help; vertical-align:middle;}
+
+
+/*===== NEW TABLES ====*/
+/*----- HEADER - TYPE 1 --------------------------------------------------*/
+div.hdrType1 {width:100%;}
+div.hdrType1 table { background-image: url(../images/hdr1_back.gif);  background-position: top left;  background-repeat: repeat-x;   }
+div.hdrType1 table td.hdrTtile {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight:bold;color: #FFFFFF;  text-align: left;  background-image: url(../images/hdr1_left.gif);  background-repeat: no-repeat;  background-position: left;  padding: 0px 0px 3px 10px;     }
+div.hdrType1 .hdrBtn { padding:0px 11px 2px 13px;font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight: bold;  white-space: nowrap;  background: url(../images/hdr1_btn_off.gif) no-repeat left top;  color: #000000!important;}
+div.hdrType1 .hdrBtnOver { padding: 0px 11px 4px 13px;font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight: bold;  white-space: nowrap;  background: url(../images/hdr1_btn_over.gif) no-repeat left top;  color: #FFFFFF!important;  cursor:pointer; }
+
+/*----- FOOTER - TYPE 1 --------------------------------------------------*/
+div.ftrType1Col {height:14px; background-image: url(../images/t1_ftr_center.gif);  background-position: bottom;  background-repeat: repeat-x;}
+div.ftrType1Col td.ftrCenter {padding:0px 0px 0px 10px; font-family: Arial, Helvetica, sans-serif;  font-size: 10px;  color: #010101;  font-weight: normal;  padding-top: 7px;  background-image: url(../images/t1_ftr_left.gif);  background-position: bottom left;  background-repeat: no-repeat;}
+div.ftrType1Col td.ftrCenter b {display:none;}
+div.ftrType1Col td.ftrRCap { background-image: url(../images/t1_ftr_right.gif);  background-position: bottom;  background-repeat: no-repeat;   }
+div.ftrType1Col td.ftrRCap img { height: 14px; }
+
+div.ftrType1Exp {height:39px; background-image: url(../images/t1_ftr_center.gif);  background-position: bottom;  background-repeat: repeat-x;}
+div.ftrType1Exp td.ftrCenter {padding:0px 0px 0px 18px; font-family: Arial, Helvetica, sans-serif;  font-size: 10px;  color: #010101;  font-weight: normal;  padding-top: 7px;  background-image: url(../images/t1_ftr_left.gif);  background-position: bottom left;  background-repeat: no-repeat;           }
+div.ftrType1Exp td.ftrCenter b {font-weight:normal;}
+div.ftrType1Exp td.ftrRCap { background-image: url(../images/t1_ftr_right.gif);  background-position: bottom;  background-repeat: no-repeat;   }
+div.ftrType1Exp td.ftrRCap img { height: 39px; }
+
+/*----- HEADER - TYPE 2 --------------------------------------------------*/
+div.hdrType2 {width:100%;}
+div.hdrType2 table { background-image: url(../images/hdr2_back.gif);  background-position: top left;  background-repeat: repeat-x;   }
+div.hdrType2 table td.hdrTtile {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight:bold;color: #FFFFFF;  text-align: left;  background-image: url(../images/hdr2_left.gif);  background-repeat: no-repeat;  background-position: left;  padding: 0px 0px 3px 10px;     }
+div.hdrType2 .hdrBtn { padding:0px 11px 2px 13px;font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight: bold;  white-space: nowrap;  background-image: url(../images/hdr2_btn_off.gif);  background-position: left;  background-repeat: no-repeat;  color: #000000;}
+div.hdrType2 .hdrBtnOver { padding: 0px 11px 4px 13px;font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight: bold;  white-space: nowrap;  background-image: url(../images/hdr2_btn_over.gif);  background-position: left;  background-repeat: no-repeat;  color: #FFFFFF;  cursor:pointer;      }
+
+/*----- FOOTER - TYPE 2 --------------------------------------------------*/
+div.ftrType2Col {height:14px; background-image: url(../images/t2_ftr_center.gif);  background-position: bottom;  background-repeat: repeat-x;}
+div.ftrType2Col td.ftrCenter {padding:0px 0px 0px 10px; font-family: Arial, Helvetica, sans-serif;  font-size: 10px;  color: #010101;  font-weight: normal;  padding-top: 7px;  background-image: url(../images/t2_ftr_left.gif);  background-position: bottom left;  background-repeat: no-repeat;}
+div.ftrType2Col td.ftrCenter b {display:none;}
+div.ftrType2Col td.ftrRCap { background-image: url(../images/t2_ftr_right.gif);  background-position: bottom;  background-repeat: no-repeat;   }
+div.ftrType2Col td.ftrRCap img { height: 14px; }
+
+div.ftrType2Exp {height:39px; background-image: url(../images/t2_ftr_center.gif);  background-position: bottom;  background-repeat: repeat-x;}
+div.ftrType2Exp td.ftrCenter {padding:0px 0px 0px 18px; font-family: Arial, Helvetica, sans-serif;  font-size: 10px;  color: #010101;  font-weight: normal;  padding-top: 7px;  background-image: url(../images/t2_ftr_left.gif);  background-position: bottom left;  background-repeat: no-repeat;           }
+div.ftrType2Exp td.ftrCenter b {font-weight:normal;}
+div.ftrType2Exp td.ftrRCap { background-image: url(../images/t2_ftr_right.gif);  background-position: bottom;  background-repeat: no-repeat;   }
+div.ftrType2Exp td.ftrRCap img { height: 39px; }
+
+/*----- HEADER - TYPE 3 --------------------------------------------------*/
+div.hdrType3 {width:100%;}
+div.hdrType3 table { background-image: url(../images/hdr3_back.gif);  background-position: top left;  background-repeat: repeat-x;   }
+div.hdrType3 table td.hdrTtile {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight:bold;color: #322;  text-align: left;  background-image: url(../images/hdr3_left.gif);  background-repeat: no-repeat;  background-position: left;  padding: 0px 0px 3px 10px;     }
+div.hdrType3 .hdrBtn { padding:0px 11px 2px 13px;font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight: bold;  white-space: nowrap;  background-image: url(../images/hdr3_btn_off.gif);  background-position: left;  background-repeat: no-repeat;  color: #000000;}
+div.hdrType3 .hdrBtnOver { padding: 0px 11px 4px 13px;font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  font-weight: bold;  white-space: nowrap;  background-image: url(../images/hdr3_btn_over.gif);  background-position: left;  background-repeat: no-repeat;  color: #FFFFFF;  cursor:pointer;      }
+
+/*----- FOOTER - TYPE 3 --------------------------------------------------*/
+div.ftrType3Col {height:14px; background-image: url(../images/t3_ftr_center.gif);  background-position: bottom;  background-repeat: repeat-x;}
+div.ftrType3Col td.ftrCenter {padding:0px 0px 0px 10px; font-family: Arial, Helvetica, sans-serif;  font-size: 10px;  color: #010101;  font-weight: normal;  padding-top: 7px;  background-image: url(../images/t3_ftr_left.gif);  background-position: bottom left;  background-repeat: no-repeat;}
+div.ftrType3Col td.ftrCenter b {display:none;}
+div.ftrType3Col td.ftrRCap { background-image: url(../images/t3_ftr_right.gif);  background-position: bottom;  background-repeat: no-repeat;   }
+div.ftrType3Col td.ftrRCap img { height: 14px; }
+
+/*-- Expando / Collapso Tables -------------------------------------------------------------------------*/
+.homeTable { margin: 0px 0px 10px 0px; }
+.homeTableCol,.homeTableCol2 { margin: 0px 0px 10px 0px; }
+.homeTableExp { margin: 0px 0px 10px 0px;}
+
+.colItem {height:45px; width:100%;position:relative;background-image: url(../images/expcol_tile.gif);  background-position: bottom;  }
+.expItem {height:70px; width:100%;position:relative;background-image: url(../images/expcol_tile.gif);  background-position: top; cursor:pointer; }
+
+div.colItem .itemLeftCap {height:45px; width:100%; background-image: url(../images/expcol_left.gif);  background-repeat: no-repeat;  background-position: bottom left;   }
+div.colItem .itemRightCap {height:45px; width:33px; background-image: url(../images/expcol_right.gif);  background-repeat: no-repeat;  background-position: bottom right;   }
+div.expItem .itemLeftCap {height:70px; width:100%; background-image: url(../images/expcol_left.gif);  background-repeat: no-repeat;  background-position: topm left;   }
+div.expItem .itemRightCap {height:70px; width:33px; background-image: url(../images/expcol_right.gif);  background-repeat: no-repeat;  background-position: top right;   }
+div.expItem2 .itemRightCap {height:70px; width:33px; background-image: url(../images/expcol2_right.gif);  background-repeat: no-repeat;  background-position: top right;   }
+
+.itemRightCap img { width: 33px; }
+
+div.colItem table.itemTable { background-image: url(../images/expcol_left.gif);  background-position: bottom left;  background-repeat: no-repeat;   }
+div.colItem td.itemThumbnail {width:52px; height:45px; text-align:center; vertical-align:top;padding-top:7px;}
+div.colItem div.clipThumbnail {margin-left:9px; width:34px; overflow:hidden;}
+div.colItem img.thumbnail { border: 1px solid #000000;height:24px !important;width:auto; }
+div.colItem td.itemDetails {vertical-align:top;padding-top:6px; }
+
+div.colItem h1, div.colItem h2,div.colItem h3{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; border: none; font-style: normal; font-weight: normal; line-height: 5px; margin: 0px 0px 0px 0px; }
+div.colItem h1 { font-size: 12px; font-weight: bold; margin: 6px 0px 7px 0px;}
+div.colItem h2 {font-size: 11px; margin: 0px 0px 0px 0px;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: #6A6D82;   }
+div.colItem h2 strong {color: #606072;}
+
+div.colItem a { display:none; }
+
+div.expItem table.itemTable { background-image: url(../images/expcol_left.gif);  background-position: top left;  background-repeat: no-repeat;   }
+div.expItem td.itemThumbnail {width:85px; height:70px; text-align:center; vertical-align:top;padding-top:7px;}
+div.expItem div.clipThumbnail {margin-left:8px; width:69px; overflow:hidden;}
+div.expItem img.thumbnail { border: 1px solid #000000;height:50px !important;width:auto;}
+div.expItem td.itemDetails {vertical-align:top;padding-top:10px; }
+
+div.expItem h1, div.expItem h2,div.expItem h3{ font-family: Arial, Helvetica, sans-serif;  color: #000000; border: none; font-style: normal; font-weight: normal; line-height: 7px; margin: 0px 0px 0px 0px; }
+div.expItem h1 { font-size: 14px; font-weight: bold; margin: 6px 0px 7px 0px;}
+div.expItem h2 {font-size: 11px; margin: 0px 0px 5px 0px;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: #6A6D82;}
+div.expItem h2 strong {color: #606072;}
+
+div.expItem a:visited,div.expItem a:link { font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #E25612;  padding: 0px 6px 0px 0px;  text-transform: capitalize;  font-weight: bold;      }
+div.expItem a:hover { font-family: Arial, Helvetica, sans-serif;  font-size: 11px;  color: #000000;  padding: 0px 6px 0px 0px; text-decoration:none;   }
+
+/*-- Standard Tables -------------------------------------------------------------------------*/
+/*-----<< Table Rows >>------------------------------ */
+table.tblType1 tbody td { font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  font-size: 12px; font-weight:normal;padding: 3px 5px 4px 6px;}
+table.tblType1 tbody td a:visited,table.tblType1 tbody td a:link {color: #6A5ACD;font-weight:bold;}
+table.tblType1 tbody td a:hover {color: #000000;text-decoration:none;}
+
+tr.rowOff td {border-bottom: 1px solid #F5F5F5; border-top: 1px solid #FFFFFF; color: #686868;}
+tr.rowOn td{border-bottom: 1px solid #CCCCCC; border-top: 1px solid #CCCCCC; cursor:pointer;color: #000000;background-color: #FBFBFB;}
+
+div.standardTable {width:100%;padding:0px 6px 0px 0px !important;}
+
+/*-----<< Column Header >>------------------------------ */
+table.tblType1 thead td { font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-image: url(../images/tbl_colhdr_back.gif); font-weight: bold; color: #686868;  padding: 5px 5px 5px 7px; background-position: top right; border-top: 3px solid #FFFFFF; }
+
+/*-- SHARE THUMBNAILS (copied from zosky_content.css and modified for use in standard-wrapper for now) -------------------*/
+.shareThumb,.shareThumbOver {position:relative;width:124px;height:124px; background-image: url(../images/sharethumb_back.gif); cursor:pointer;float:left; }
+div.shareThumb img {border:1px solid #959595; margin:0px auto; filter: alpha(opacity=85); -moz-opacity: 0.85;}
+div.shareThumbOver img {border:1px solid #959595; margin:0px auto; filter: alpha(opacity=100); -moz-opacity: 1.0;}
+div.shareThumb .sharethumbText {position:absolute;top:90px; left:10px; width:100px; height: 25px; overflow:hidden; text-overflow: ellipsis; text-align:center; font-family: Arial, Helvetica, sans-serif;  font-size: 10px; color: #696969; }
+div.shareThumbOver .sharethumbText {position:absolute;top:90px; left:10px; width:100px; height: 25px; overflow:hidden; text-overflow: ellipsis; text-align:center; font-family: Arial, Helvetica, sans-serif;  font-size: 10px; color: #000000; }
+div.shareThumb .sharethumbText strong,div.shareThumbOver .sharethumbText strong { color: #000000; font-weight: bold; }
+div.shareThumbImg {position:absolute; left:11px; top:10px; width:98px; height:74px; overflow:hidden; margin:0px auto; text-align:center; }
+
+/*-- misc deb styles...must organize one day--*/
+.bright {color:#D45423;}
+.verticalAlignTopOnly {vertical-align:top;}
+.horizontalAlignCenterOnly {text-align:center;}
+.floatLeftOnly {float:left;}
+
+/*-- "RGB" share choices -------------------------------------------------------------------------*/
+/*.premiumDialogContainer {background:#E4E8F2; border-top:1px solid #e0e0e0; border-left:1px solid #e8e8e8; border-right:1px solid #999; border-bottom:1px solid #999; position:absolute; top:100px; left:20%; margin:0 auto; width:570px; height:auto; z-index:200; font-family:verdana, arial, helvetica, sans-serif; font-size:10pt; font-weight:normal;}
+.premiumDialog {padding:0px; border-top:2px solid #fff; border-left:2px solid #f4f4f4; border-right:2px solid #bfbfbf; border-bottom:2px solid #b0b0b0; }
+.premiumDialog div.premiumTitle {margin:0px; padding:10px 0px 0px 0px;}
+.premiumDialog p {padding:0px 0px 8px; margin:0px; }
+.premiumDialog table.premiumChoice {color:#6a6a6a; border-collapse:collapse; margin:0px; padding:0px; font-size:11px; line-height:1.4em;}
+.premiumDialog table.premiumChoice td {margin:0px; padding:0px 0px 10px 0px; vertical-align:top; cursor:pointer; text-align:center;}
+.premiumDialog table.premiumChoice td.blurb {padding:7px 14px 14px 14px; text-align:left; }
+.premiumDialog table.premiumChoice td ul {padding:0px; margin:0px; list-style-type:disc; }
+.premiumDialog table.premiumChoice td li {margin-left:16px; }
+
+.premiumChoiceUpgrade {background:url('../images/premiumChoiceUpgrade.gif') no-repeat left top; }
+.premiumChoiceUpgradeOver {background:url('../images/premiumChoiceUpgrade.gif') no-repeat left bottom; }
+.premiumChoiceContinue {background:url('../images/premiumChoiceContinue.gif') no-repeat left top; }
+.premiumChoiceContinueOver {background:url('../images/premiumChoiceContinue.gif') no-repeat left bottom; }
+.premiumChoiceUndo {background:url('../images/premiumChoiceUndo.gif') no-repeat left top; }
+.premiumChoiceUndoOver {background:url('../images/premiumChoiceUndo.gif') no-repeat left bottom; }*/
+
+/*-- "R - ONLY" share choices -------------------------------------------------------------------------*/
+.premiumDialogContainer {position:absolute; top:50px; left:20%;  width:570px; height:400px; z-index:200;}
+.prempopContent1On {position:absolute; width:475px; height:163px; z-index: 203;  left: 52px;  top: 118px;  display: default;  }
+.prempopContent1Off { display: none; } 
+
+.prempopCheckbox {position:absolute; left: 42px;  top: 322px;  display: default;  z-index: 220;}
+div.prempopCheckbox  table tr td.checkboxLbl { font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 13px !important; }
+
+.prempopContent2On {position:absolute; width:475px; height:163px; z-index: 202;  left: 52px;  top: 118px; display: default;}
+.prempopContent2Off {display: none;  }
+
+div.prempopLearnMoreOn {position:absolute;margin:0px; padding:0px; width:132px; height:18px;top:172px; left:169px;z-index: 210;cursor:pointer;}
+div.prempopLearnMoreOff {display:none;}
+
+div.premiumAlertButton {position:absolute;margin:0px; padding:0px; width:192px; height:67px; left:331px;top:303px;z-index: 203;cursor:pointer;}
+.premiumChoiceContinue {background:url('../images/prempop_okup.png') no-repeat left top; }
+.premiumChoiceContinueOver {background:url('../images/prempop_okover.png') no-repeat left top; }
+
+
+/*-- order page styles -------------------------------------------------------------------------*/
+.orderText {margin-top:6px; margin-bottom:10px; padding-bottom:0px; border-bottom: 0px; font-family: verdana,Arial, sans-serif;  font-size: 12px;}
+.orderThumb {float:left; margin-right:8px; border:0px;}
+
+/*-- dvd case selection bg ---------------------------------------------------------------------*/
+.dvd_case_sample_bg {float:left;display:block;margin:0px 10px 10px 0px;cursor:pointer; width:123px; height:136px;}
+.dvd_case_sample_bg img {margin:18px 16px 0px 20px;}
+.dvd_case_sample_bg .formItemDescription {margin-left:4px;}
+.dvd_case_sample_bg_sel {background:url(../images/dvdCoverSampleBg1.gif) no-repeat left center;}
+.dvd_case_sample_bg_mo {background:url(../images/dvdCoverSampleBg2.gif) no-repeat left center;}
+
+img.radioImage, img.radioImage_over, img.radioImage_sel {width:16px; height:16px; border:0px; padding:0px; margin:6px 4px 0px 10px; vertical-align:text-bottom;}
+img.radioImage {background:url(../images/radioImage.gif) no-repeat left top; }
+img.radioImage_over {background:url(../images/radioImage.gif) no-repeat left bottom; }
+img.radioImage_sel {background:url(../images/radioImage_sel.gif) no-repeat left bottom; }
+
+/*-- upload message box ---------------------------------------------------------------------*/
+table.uploadMessage * {padding:0px; margin:0px; font: 9px/14px Verdana, Arial, Helvetica, sans-serif; color:#6f6f6f;}
+table.uploadMessage {margin:0px 0px 8px 0px;}
+table.uploadMessage, table.uploadMessage table {border-collapse:collapse;}
+table.uploadMessage td.uploadTitle, table.uploadMessage td.uploadContent {padding:2px; margin:0px;}
+table.uploadMessage td.uploadContent {height:60px; background:#fff;}
+table.uploadMusic   td.uploadContent {height:35px; background:#fff;}
+table.uploadMessage td.uploadTitle {font-size: 10px; font-weight:bold; height:16px; vertical-align:top; background:#fff;}
+table.uploadMessage td.uploadTopL { background:  url(../images/uploadBorder_1.gif) no-repeat; }
+table.uploadMessage td.uploadTop { background:  url(../images/uploadBorder_2.gif) repeat-x; }
+table.uploadMessage td.uploadTopR { background:  url(../images/uploadBorder_3.gif) no-repeat; }
+table.uploadMessage td.uploadL { background:  url(../images/uploadBorder_4.gif) repeat-y; }
+table.uploadMessage td.uploadR { background:  url(../images/uploadBorder_5.gif) repeat-y; }
+table.uploadMessage td.uploadBottomL { background: url(../images/uploadBorder_6.gif) no-repeat; }
+table.uploadMessage td.uploadBottom { background: url(../images/uploadBorder_7.gif) repeat-x; }
+table.uploadMessage td.uploadBottomR { background: url(../images/uploadBorder_8.gif) no-repeat; }
+table.uploadMessage td.uploadTopL, table.uploadMessage .uploadTopR, table.uploadMessage .uploadBottomL, table.uploadMessage .uploadBottomR {width:7px; height:7px;}
+
+table.uploadMessageInner td {padding-right:10px;}
+.uploadFinePrint {font:9px/11px verdana,arial,sans-serif; color:#aaa; width:275px;}
+.uploadFinePrintDarker {font:9px/11px verdana,arial,sans-serif; color:#777;}
+.uploadFinePrintDarker a {color:#777;}
+.uploadLimits {font:10px/12px verdana,arial,sans-serif; color:#666; width:275px; padding-bottom:5px; }
+
+/*-- upload firewall or security problem alert ----------------------------------------------*/
+.uploaderFirewallOuter {width:451px; height:280px; margin:30px 25px 0px 20px;}
+.uploaderFirewallInner {padding:10px; border:1px solid #FECA30; background:#fff; font:9pt/12pt verdana,arial,sans-serif;}
+
+/*-- auth_song Listen and Stop buttons ----------------------------------------------*/
+.audioListen {background:url(http://www.onetruemedia.com/otm_site/images/audioListenStop.gif) left bottom no-repeat; cursor:pointer;}
+.audioStop   {background:url(http://www.onetruemedia.com/otm_site/images/audioListenStop.gif) left top no-repeat; cursor:pointer;}
+
+/*-- auth_song Add and Remove buttons ----------------------------------------------*/
+.audioAdd    {background:url(http://www.onetruemedia.com/otm_site/images/audioAddRemove.gif) left bottom no-repeat; cursor:pointer;}
+.audioRemove {background:url(http://www.onetruemedia.com/otm_site/images/audioAddRemove.gif) left top no-repeat; cursor:pointer;}
+
+/*-- post to google or youtube errors ----------------------------------------------*/
+.postingError {font-size:14px; font-family:Verdana, Arial, Helvetical, sans-serif; color:#CE0000; padding:5px 0px 13px 3px; margin-left:40px; background: url(../images/task_div.gif) left bottom repeat-x;}
+
+.mediaSelectMessage {margin-top:7px; font:11px/12px verdana,arial,sans-serif; color:#4f4f4f;}
+.mediaSelectMessage strong {color:#000;}
+.mediaSelectMessage a strong {color:#EB7E24;}
+.mediaSelectMessage a:hover strong {color:#000;}
+
+/*-- montage too long (too much visual media) alert --------------------------------*/
+#montageTooLongAlert       {position:relative; display:inline; width:1px; height:1px;}
+#montageTooLongAlertBubble {position:absolute; top:-86px; left:-60px; width:150px; height:75px; z-index:1; visibility:hidden; }
+#montageTooLongAlertMsg    {position:absolute; top:-75px; left:-40px; width:110px; height:40px; z-index:2; display:none; text-align:center;}
+
+/*-- "New Orange Girl" share choices -------------------------------------------------------------------------*/
+.ogLeftCol {width:100%;  text-align: center; }
+.ogRightCol {}
+div.ogLeftContainer {position:relative;  width:524px; z-index: 5;}
+div.ogPlayerContainer {position:relative;  z-index: 5;}
+
+div.ogPlayerOff {display:none;}
+div.ogPlayerOn {position:absolute;left:28px; top:39px;  z-index: 10;display:default;}
+
+div.ogShareFreeOn {position:absolute;left:113px; top:230px;  z-index: 15;display:default; width:178px;height:57px; cursor:pointer;}
+div.ogShareFreeOff {display:none;}
+
+div.ogContinueFreeOn {position:absolute;left:125px; top:423px;  z-index: 10;}
+div.ogContinueFreeOff {display:none;}
+div.ogUpgrade {position:absolute;left:197px; top:320px;  z-index: 10;}
+/*div.ogUpgradeLink { width: 110px; height: 22px; position: absolute; left: 323px; top: 97px; z-index: 10; cursor: pointer; }*/
+
+/*div.ogDisabledLinkOff {display:none; }
+div.ogDisabledLinkOn { width: 96px; height: 19px; position: absolute; left: 99px; top: 422px; z-index: 10; cursor: pointer; display:default;}*/
+
+div.ogFreetext1Off {display: none; }
+div.ogFreetext1On {position:absolute; width:318px; height:42px; z-index: 202;  left: 59px;  top: 380px; display: default;}
+
+/*-- DVD Pricing Table -------------------------------------------------------------------------*/
+table.dvdPricingTable { font-family: Arial, Helvetica, sans-serif;  font-size: 12px;  color: #535343; font-weight:bold; }
+table.dvdPricingTable tr td {padding-left:30px; }
+
+div.biggerRadio td.fieldDesc {font-size: 13px !important; height:30px; !important;border-bottom:1px solid #FFFFFF;}
+
+/*-- remix --------------------------------*/
+#remixGreeting                  {position:absolute; top:90px; left:25%; margin:0 auto; width:494px; height:349px; z-index:200; font-family:verdana, arial, helvetica, sans-serif; font-size:10pt;}
+#remixGreetingText              {position:absolute; top:30px; left:35px; width:434px; height:289px; z-index:201; cursor:pointer;}
+#remixGreetingText p            {line-height:18px; padding:8px 0px; margin:0px;}
+#remixGreetingText ul           {margin-top:0px; padding-top:0px;}
+#remixGreetingText li           {line-height:14px; padding:2px 0px; margin:0px;}
+#remixGreetingText .remixHdr     {font-weight:bold; font-size:22px; margin:0px; padding:0px;}
+#remixGreetingText .closeMessage {line-height:18px; padding:8px 0px; margin:0px;}
+
+/*-- public gallery header and text --------------------------------*/
+.plainText11 {font:11px/13px verdana,arial,sans-serif; padding:0px 0px 6px; margin:0px; color:#8f8f8f;}
+.galleryHdrLobbyOn {background:#000 url('../images/galleryHdrBtn_Gal.jpg') left top repeat-x; cursor:pointer;}
+.galleryHdrLobbyOff {background:#000 url('../images/galleryHdrBtn_Gal.jpg') left -110px repeat-x; cursor:pointer;}
+.galleryHdrLobbyOver {background:#000 url('../images/galleryHdrBtn_Gal.jpg') left -55px repeat-x; cursor:pointer;}
+.galleryHdrExploreOn {background:#000 url('../images/galleryHdrBtn_Exp.jpg') left top repeat-x; cursor:pointer;}
+.galleryHdrExploreOff {background:#000 url('../images/galleryHdrBtn_Exp.jpg') left -110px repeat-x; cursor:pointer;}
+.galleryHdrExploreOver {background:#000 url('../images/galleryHdrBtn_Exp.jpg') left -55px repeat-x; cursor:pointer;}
+.galleryHdrHalOn {background:#000 url('../images/galleryHdrBtn_Hal.jpg') left top repeat-x; cursor:pointer;}
+.galleryHdrHalOff {background:#000 url('../images/galleryHdrBtn_Hal.jpg') left -110px repeat-x; cursor:pointer;}
+.galleryHdrHalOver {background:#000 url('../images/galleryHdrBtn_Hal.jpg') left -55px repeat-x; cursor:pointer;}
+.galleryHdrRight {cursor:pointer;}
+.galleryHdrStretch {background:#000 url('../images/galleryHdrStretchBg.jpg') left top repeat-x;}
+
+/*-- tivo header logo -------------------------------------------------------------------------*/
+.tivoLogoOtm {position:absolute; top:17px; left:85px; width:29px; height:46px; z-index:200;}
+.tivoLogoBc {position:absolute; top:33px; left:230px; width:29px; height:46px; z-index:200;}
+.tivoLogoIv {position:absolute; top:10px; left:394px; width:29px; height:46px; z-index:200;}
